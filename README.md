@@ -19,14 +19,19 @@ The groups with the lowest average ranking are the hardest and the groups with t
   * The result for each world cup is as follows:
           *The death group in 1998 is: H
          the group teams were ["Japan'" "Argentina'" "Croatia'" "Jamaica'"]
+         
          *The death group in 2002 is: F
          the group teams were ["Argentina'" "England'" "Nigeria'" "Sweden'"]
+         
          *The death group in 2006 is: E
          the group teams were ["Italy'" "Ghana'" "Czechia'" "USA'"]
+         
          *The death group in 2010 is: D
          the group teams were ["Germany'" "Australia'" "Ghana'" "Serbia'"]
+         
          *The death group in 2014 is: D
          the group teams were ["Uruguay'" "Costa_Rica'" "Italy'" "England'"]
+         
          *The death group in 2018 is: E
          the group teams were ["Brazil'" "Costa_Rica'" "Serbia'" "Switzerland'"]
 
