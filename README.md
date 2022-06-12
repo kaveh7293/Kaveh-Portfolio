@@ -54,3 +54,4 @@ The groups with the lowest average ranking are the hardest (death groups) and th
           *The easiest group in 2018 is: A
           the group teams were ["Uruguay'" "Russia'" "Saudi_Arabia'" "Egypt'"]
           
+The code for the above results can be found [here](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Difficulty_Level.py)
