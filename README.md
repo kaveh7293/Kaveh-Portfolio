@@ -35,6 +35,7 @@ The groups with the lowest average ranking are the hardest (death groups) and th
          the group teams were ["Brazil'" "Costa_Rica'" "Serbia'" "Switzerland'"]
 
   * The easiest groups are:
+  
           *The easiest group in 1998 is: D
           the group teams were ["Spain'" "Paraguay'" "Bulgaria'" "Nigeria'"]
           
