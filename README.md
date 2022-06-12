@@ -12,5 +12,7 @@ Example Data Science Portfolio
    [2010](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2010.png)
    [2014](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2014.png)
    [2018](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2018.png)
+   
+The groups with the lowest average ranking are the hardest and the groups with the maximum ranking are the easiest. We also determined this using python code 
   * The result for each world cup is as follows:
 
