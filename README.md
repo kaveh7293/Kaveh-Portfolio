@@ -5,4 +5,5 @@ Example Data Science Portfolio
 * A multi-class classfication model is fitted and used to predict wehther the first team wins, the teams draw or the second team wins
 * The features which are used for this classfiction problem are the name of the countries, the teams continent, fifa ranking, the number of previous world champtionships, and wehther they were the host
 *Before start model building, I answered some of the questions that I had in my mind:
-1-
+** What were the hardest groups in the group stage in each of the previous world cups. I chose the hardest group based on the smallest average of the fifa world ranking in each group
+
