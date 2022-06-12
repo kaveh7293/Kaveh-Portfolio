@@ -1,4 +1,4 @@
-#1 World Cup Project
+# [Project 1 World Cup Project](https://github.com/kaveh7293/Kaveh-Portfolio)
 Example Data Science Portfolio
 #World Cup Project
 * The data from group stage world cups between 1998 to 2018 were collected to obtain a model from which the results of group stage world cup in 2022 can be predicted
