@@ -15,9 +15,8 @@ Example Data Science Portfolio
    ![](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2014.png)
    ![](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2018.png)
    
-The groups with the lowest average ranking are the hardest and the groups with the maximum ranking are the easiest. We also determined this using python code 
-  * The result for each world cup is as follows:
-          *The death group in 1998 is: H
+The groups with the lowest average ranking are the hardest (death groups) and the groups with the maximum ranking are the easiest. We also determined this using python code 
+  * The following results were obtained by our python code and can be seen from barplots as well:          *The death group in 1998 is: H
          the group teams were ["Japan'" "Argentina'" "Croatia'" "Jamaica'"]
          
          *The death group in 2002 is: F
@@ -35,3 +34,22 @@ The groups with the lowest average ranking are the hardest and the groups with t
          *The death group in 2018 is: E
          the group teams were ["Brazil'" "Costa_Rica'" "Serbia'" "Switzerland'"]
 
+  * The easiest groups are:
+          *The easiest group in 1998 is: D
+          the group teams were ["Spain'" "Paraguay'" "Bulgaria'" "Nigeria'"]
+          
+          *The easiest group in 2002 is: H
+          the group teams were ["Japan'" "Belgium'" "Tunisia'" "Russia'"]
+          
+          *The easiest group in 2006 is: G
+          the group teams were ["Switzerland'" "South_Korea'" "France'" "Togo'"]
+          
+          *The easiest group in 2010 is: F
+          the group teams were ["Italy'" "Paraguay'" "New_Zealand'" "Slovakia'"]
+          
+          *The easiest group in 2014 is: F
+          the group teams were ["Argentina'" "Bosnia'" "Iran'" "Nigeria'"]
+          
+          *The easiest group in 2018 is: A
+          the group teams were ["Uruguay'" "Russia'" "Saudi_Arabia'" "Egypt'"]
+          
