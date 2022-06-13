@@ -85,4 +85,6 @@ The code for generation of the above results can be found [here](https://github.
 
 ## Effect of different features on the results
 The effect of features can be seen using count plot and heat map plot generated from contingency table:
-![] (https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_losts.png)
+![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_wins.png)
+![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_losts.png)
+![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_draws.png)
