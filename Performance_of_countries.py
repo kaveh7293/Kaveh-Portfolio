@@ -107,7 +107,10 @@ DRAWS.columns=['Country','Continent','Ranking','Num_Chapionships','IsHost','Year
 WINS['Points']=3
 LOSES['Points']=0
 DRAWS['Points']=1
-data.head()
+
+WINS['Result']='WIN'
+LOSES['Result']='LOSE'
+DRAWS['Result']='DRAW'
 all_result=pd.concat([WINS,LOSES,DRAWS],ignore_index=True)
 plt.figure(figsize=(10,8))
 
