@@ -63,7 +63,7 @@ The code for the above results can be found [here](https://github.com/kaveh7293/
 ## Performance of different continents in all the worldcups. 
 In the following we show the number of wins, loses and draws for the teams from different continents. Teams from Europ and South America have the highest ratio of win/lose and win/draw compared to countries from different continents. This justify the lower number of teams from Asia and Africa in the world cup. In the following we investigate whether there is an improve in the performance of the countries from Asia, Africa and Concacaf regions. FIFA usually plans to improce the performance of the countries from these regions to make the World Cup more exciting
 * This is the countplot for the performance of different continents in the world cups:
-* ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances.png)
+![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances.png)
 
 As shown, only the countries from Europe and South America have more wins than draws and loses
 A better plot can be the average points per game for the contries from different countries:
