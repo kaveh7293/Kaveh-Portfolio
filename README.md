@@ -9,11 +9,11 @@ Example Data Science Portfolio
   
   
    ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/1998.png)
-   ![](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2002.png)
-   ![](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2006.png)
-   ![](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2010.png)
-   ![](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2014.png)
-   ![](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2018.png)
+   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2002.png)
+   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2006.png)
+   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2010.png)
+   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2014.png)
+   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2018.png)
    
 The groups with the lowest average ranking are the hardest (death groups) and the groups with the maximum ranking are the easiest. We also determined this using python code 
   * The following results were obtained by our python code and can be seen from barplots as well:          *The death group in 1998 is: H
