@@ -72,6 +72,7 @@ A better plot can be the average points per game for the contries from different
 ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances_Points.png)
 
 In the following the plot of average points per game for countries from different continents are shown for different world cup years:
+
 ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Africa.png)
 ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Asia.png)
 ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Concacaf.png)
