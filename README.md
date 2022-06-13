@@ -8,7 +8,7 @@ Example Data Science Portfolio
   * What were the hardest groups in the group stage in each of the previous world cups. I chose the hardest group based on the smallest average of the fifa world    ranking in each group. We plot a barplot to return the average of the teams rankings in each of the world cups:
   
   
-   ![](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/1998.png)
+   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/1998.png)
    ![](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2002.png)
    ![](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2006.png)
    ![](https://raw.githubusercontent.com/kaveh7293/Kaveh-Portfolio/main/images/2010.png)
