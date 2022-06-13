@@ -66,7 +66,7 @@ In the following we show the number of wins, loses and draws for the teams from 
 * ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances.png)
 As shown, only the countries from Europe and South America have more wins than draws and loses
 A better plot can be the average points per game for the contries from different countries:
-
+![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances_Points.png)
 
 In the following the plot of average points per game for countries from different continents are shown for different world cup years:
 ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Africa.png)
