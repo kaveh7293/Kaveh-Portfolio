@@ -94,6 +94,7 @@ The effect of features can be seen using count plot and heat map plot generated 
 The heat maps are also can be used to conculde the same result:
 
 ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map1.png)
+
 ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map2.png)
 
 * Hypothesis testing: Since both of the Country and Result columns are categorical, we did a chisquared hypothesis test. The resulting p value obtained 1.99 e-9. As a reult we reject the null hypothesis in favour of alternative hypothesis (i.e., the country and results are dependent)
