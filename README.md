@@ -93,6 +93,7 @@ The effect of features can be seen using count plot and heat map plot generated 
 
 The heat maps are also can be used to conculde the same result:
 
+
 ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map1.png)
 
 ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map2.png)
