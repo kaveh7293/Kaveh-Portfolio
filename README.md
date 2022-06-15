@@ -103,7 +103,7 @@ The heat maps are also can be used to conculde the same result:
 
   *Note that in the above hypothesis testings, we first created a contingency table (using pandas.crosstab), and then using the contingency table we could perform the hypothesis test (using stats.chi2contingency). 
  Finally, we did a one-way Anova F-test to determine whether numerical features affect the results that the teams had. The numerical features are the fifa ranking and the number of previous championships. I used scipy.stats.f_oneway in order to implement this hypothesis test. The corresponding p values for these tests obtained to be 1.88 e-12 (effect of fifa ranking) and 1.82 e-6 (effect of previous world championships), so we can assure that both of these features have effect on the performance of the teams on each game. The following plots also confirm the results of those hypothesis tests:
- ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/num_of_champioships_on_performance.png)
  ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Ranking_Results.png)
+ ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/num_of_champioships_on_performance.png)
 
 
