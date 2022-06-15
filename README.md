@@ -102,4 +102,5 @@ The heat maps are also can be used to conculde the same result:
 * Finally, the chi-squared test has been used to evaluate whether being a host affect the results a team get, the corresponding p-value was obtained 0.02 showing the important effect of being a host. 
 
   *Note that in the above hypothesis testings, we first created a contingency table (using pandas.crosstab), and then using the contingency table we could perform the hypothesis test (using stats.chi2contingency). 
+ Finally, we did a one-way Anova F-test to determine whether numerical features affect the results that the teams had. The numerical features are the fifa ranking and the number of previous championships. I used scipy.stats.f_oneway in order to implement this hypothesis test. The corresponding p values for these tests obtained to be 1.88 e-12 (effect of fifa ranking) and 1.82 e-6 (effect of previous world championships), so we can assure that both of these features have effect on the performance of the teams on each game.
 
