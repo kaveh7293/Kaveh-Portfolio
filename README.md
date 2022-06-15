@@ -101,5 +101,5 @@ The heat maps are also can be used to conculde the same result:
 * Because the continents are also a cateogrical type of data, we used a chi-squared test as well to assess whether there is a relationship between continents and the corresponding results. The p-value for the corresponding hypothesis test (null hypothesis: continents and their results are independent variables) obtained 3.3 e-9, which rejects the null hypothesis. 
 * Finally, the chi-squared test has been used to evaluate whether being a host affect the results a team get, the corresponding p-value was obtained 0.02 showing the important effect of being a host. 
 
-  *Note that in the above hypothesis testings, we first created a cross table (using pandas.crosstab), and then using the cross table we could perform the hypothesis test (using stats.chi2contingency). 
+  *Note that in the above hypothesis testings, we first created a contingency table (using pandas.crosstab), and then using the contingency table we could perform the hypothesis test (using stats.chi2contingency). 
 
