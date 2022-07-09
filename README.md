@@ -92,7 +92,7 @@ The effect of features can be seen using count plot and heat map plot generated 
 * As shown, different teams have different number of wins, draws and loses. As a result, we can conclude that the column Country is important during model predictions.
 
 The heat maps are also can be used to conculde the same result:
-
+<h3> Using a Model for Classification <\p>
 
 ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map1.png) ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map2.png)
 
