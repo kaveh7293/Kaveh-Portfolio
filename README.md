@@ -110,9 +110,9 @@ The heat maps are also can be used to conculde the same result:
 <h3> Using a Model for Classification </h3>
 <p> In this section we used several models to predict the results of the games in the previous wrold cups and then use the trained model to predict the results of world cup 2022 in Qatar. </p>
 
-<p>I used a <strong> random forest model</strong> to train the data from the previous world cups. In the first model, we did not select the column countries, to avoid overfitting. I used a <strong>randomized-search cross-validation </strong> method (i.e., using sklearn.model_selection.RandomizedSearchCV) to select the appropriate hyperparameters. The following values for the corresponding hyperparameters are recommended based on the cross validation results:<br>
+<p>I used a <strong> random forest model</strong> to train the data from the previous world cups. In the first model, we did not select the column countries, to avoid overfitting (there is a correlation between the countries and continents, as shown in the explanatory data analysis section, most of the countries from Europe and South America have a higher number of wins). I used a <strong>randomized-search cross-validation </strong> method (i.e., using sklearn.model_selection.RandomizedSearchCV) to select the appropriate hyperparameters. The following values for the corresponding hyperparameters are recommended based on the cross validation results:<br>
 <strong>RandomForestClassifier(bootstrap=False, max_depth=54, max_features='sqrt',
                        min_samples_split=10, n_estimators=50)</strong><br>
 The result of the corresponding classification modeling was  0.90 accuracy score for the training data set and <strong>0.54</strong> accuracy score for the testing data set. As can be seen, there is a overfitting in the corresponding model. Using an accuracy score of 0.54 is also not that bad compared to random sampling of the resilts which have a assymptotic accuracy of 0.33.
 </p>
-
+<p> I repeated the above-mentioned classification modeling. In this time, I added the name of countries into my predictions. This is revealed that the accuracy score for the test data is less (i.e., <strong>0.44</strong>) in this situation.</p>
