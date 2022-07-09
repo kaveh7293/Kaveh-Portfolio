@@ -112,5 +112,7 @@ The heat maps are also can be used to conculde the same result:
 
 <p>I used a random forest model to train the data from the previous world cups. I used a randomized-search cross validation method (i.e., using sklearn.model_selection.RandomizedSearchCV) to select the appropriate hyperparameters. The following values for the corresponding hyperparameters are recommended based on the cross validation results:<br>
 RandomForestClassifier(bootstrap=False, max_depth=54, max_features='sqrt',
-                       min_samples_split=10, n_estimators=50)</p>
+                       min_samples_split=10, n_estimators=50)<br>
+The result of the corresponding classification modeling was 0.54 accuracy score for the training data set and 0.90 accuracy score for the testing data set. As can be seen, there is a overfitting in the corresponding model. Using an accuracy score of 0.54 is also not that bad compared to random sampling of the resilts which have a assymptotic accuracy of 0.33.
+</p>
 
