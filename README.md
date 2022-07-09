@@ -108,4 +108,5 @@ The heat maps are also can be used to conculde the same result:
 
 
 <h3> Using a Model for Classification </h3>
+<p> In this section we used several models to predict the results of the games in the previous wrold cups and then use the trained model to predict the results of world cup 2022 in Qatar </p>
 
