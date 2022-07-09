@@ -110,7 +110,7 @@ The heat maps are also can be used to conculde the same result:
 <h3> Using a Model for Classification </h3>
 <p> In this section we used several models to predict the results of the games in the previous wrold cups and then use the trained model to predict the results of world cup 2022 in Qatar. </p>
 
-<p>I used a random forest model to train the data from the previous world cups. I used a randomized-search cross validation method (i.e., using sklearn.model_selection.RandomizedSearchCV) to select the appropriate hyperparameters. The following values for the corresponding hyperparameters are recommended based on the cross validation results:
- RandomForestClassifier(bootstrap=False, max_depth=54, max_features='sqrt',
+<p>I used a random forest model to train the data from the previous world cups. I used a randomized-search cross validation method (i.e., using sklearn.model_selection.RandomizedSearchCV) to select the appropriate hyperparameters. The following values for the corresponding hyperparameters are recommended based on the cross validation results:<br>
+RandomForestClassifier(bootstrap=False, max_depth=54, max_features='sqrt',
                        min_samples_split=10, n_estimators=50)</p>
 
