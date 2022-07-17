@@ -121,7 +121,7 @@ The result of the corresponding classification modeling was  0.90 accuracy score
 <p> I repeated the above-mentioned classification modeling. In this time, I added the name of countries into my predictions. This is revealed that the accuracy score for the test data is less (i.e., <strong>0.44</strong>) in this situation.</p>
 <h2>The results of modeling</h2>
 <p> The results for the final model and final predictions are shown as follows:<br>
-<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Screenshot%202022-07-17%20191645.pn' width="600" height="1200"><br>
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Screenshot%202022-07-17%20191645.png' width="600" height="1200"><br>
 
 
 </p>
