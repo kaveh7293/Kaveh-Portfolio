@@ -67,34 +67,33 @@ In the following we show the number of wins, loses and draws for the teams from 
 
 As shown, only the countries from Europe and South America have more wins than draws and loses
 
-A better plot can be the average points per game for the contries from different countries:
+A better plot can be the average points per game for the contries from different countries:<br>
 
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances_Points.png)
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances_Points.png'><br>
 
-In the following the plot of average points per game for countries from different continents are shown for different world cup years:
+In the following the plot of average points per game for countries from different continents are shown for different world cup years:<br>
 
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Africa.png)
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Asia.png)
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Concacaf.png)
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Europe.png)
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Oceania.png)
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/South_America.png)
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Africa.png'><br>
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Concacaf.png'><br>
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Europe.png'><br>
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Oceania.png'><br>
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/South_America.png'><br>
 
-The plot shows that African countries performances get worse after world cup 1998. Asian countries performance is better in 2002, 2010 and 2018 world cups compared to their performance in 2006 and 20014. THe best performace of Asian countries is in world cup 2002 when Japan and Korea were the hosts. South American counteries performance was very bad in 2002 with an average of about 0.6 points per game (Uruguay and Argentina were eliminated in the group stage). 
-The code for generation of the above results can be found [here](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Performance_of_countries.py)
+<p>The plot shows that African countries performances get worse after world cup 1998. Asian countries performance is better in 2002, 2010 and 2018 world cups compared to their performance in 2006 and 20014. THe best performace of Asian countries is in world cup 2002 when Japan and Korea were the hosts. South American counteries performance was very bad in 2002 with an average of about 0.6 points per game (Uruguay and Argentina were eliminated in the group stage). 
+The code for generation of the above results can be found [here](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Performance_of_countries.py)</p>
 
 ## Effect of different features on the results
-The effect of features can be seen using count plot and heat map plot generated from contingency table:
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_Wins.png)
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_losts.png)
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_draws.png)
+The effect of features can be seen using count plot and heat map plot generated from contingency table:<br>
+ <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_Wins.png'><br>
+ <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_losts.png'><br>
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_draws.png'><br>
 
 * As shown, different teams have different number of wins, draws and loses. As a result, we can conclude that the column Country is important during model predictions.
 
 The heat maps are also can be used to conculde the same result:
 
-
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map1.png) ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map2.png)
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map1.png'><br>
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map2.png'>
 
 * Hypothesis testing: Since both of the Country and Result columns are categorical, we did a chi-squared hypothesis test. The resulting p value obtained 1.99 e-9. As a reult we reject the null hypothesis in favour of alternative hypothesis (i.e., the country and results are dependent)
 
@@ -102,9 +101,12 @@ The heat maps are also can be used to conculde the same result:
 * Finally, the chi-squared test has been used to evaluate whether being a host affect the results a team get, the corresponding p-value was obtained 0.02 showing the important effect of being a host. 
 
   *Note that in the above hypothesis testings, we first created a contingency table (using pandas.crosstab), and then using the contingency table we could perform the hypothesis test (using stats.chi2contingency). 
- Finally, we did a one-way Anova F-test to determine whether numerical features affect the results that the teams had. The numerical features are the fifa ranking and the number of previous championships. I used scipy.stats.f_oneway in order to implement this hypothesis test. The corresponding p values for these tests obtained to be 1.88 e-12 (effect of fifa ranking) and 1.82 e-6 (effect of previous world championships), so we can assure that both of these features have effect on the performance of the teams on each game. The following plots also confirm the results of those hypothesis tests:
- ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Ranking_Results.png)
- ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/num_of_champioships_on_performance.png)
+ Finally, we did a one-way Anova F-test to determine whether numerical features affect the results that the teams had. The numerical features are the fifa ranking and the number of previous championships. I used scipy.stats.f_oneway in order to implement this hypothesis test. The corresponding p values for these tests obtained to be 1.88 e-12 (effect of fifa ranking) and 1.82 e-6 (effect of previous world championships), so we can assure that both of these features have effect on the performance of the teams on each game. The following plots also confirm the results of those hypothesis tests:<br>
+ 
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Ranking_Results.png'><br>
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/num_of_champioships_on_performance.png'><br>
+
+
 
 
 <h3> Using a Model for Classification </h3>
