@@ -7,13 +7,13 @@ Example Data Science Portfolio
 *Before start model building, I answered some of the questions that I had in my mind:
   * What were the hardest groups in the group stage in each of the previous world cups. I chose the hardest group based on the smallest average of the fifa world    ranking in each group. We plot a barplot to return the average of the teams rankings in each of the world cups:
   
-  
-   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/1998.png)
-   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2002.png)
-   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2006.png)
-   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2010.png)
-   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2014.png)
-   ![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2018.png)
+  <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/1998.png'><br>
+  <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2002.png'><br>
+  <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2006.png'><br>
+  <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2010.png'><br>
+  <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2014.png'><br>
+  <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2018.png'><br>
+
    
 The groups with the lowest average ranking are the hardest (death groups) and the groups with the maximum ranking are the easiest. We also determined this using python code 
   * The following results were obtained by our python code and can be seen from barplots as well:          *The death group in 1998 is: H
