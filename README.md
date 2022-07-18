@@ -1,10 +1,12 @@
 # [Project 1 World Cup Project](https://github.com/kaveh7293/Kaveh-Portfolio)
 Example Data Science Portfolio
 <h2> Overview of the Project</h2>
-<p>The data from group stage world cups between 1998 to 2018 were collected to obtain a model from which the results of group stage world cup in 2022 can be predicted. The csv file for the data can be found <a href='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/WorldCup.csv'>here </a></p>
-<p> A multi-class classfication model is fitted and used to predict wehther the first team wins, the teams draw or the second team wins.</p>
-<p> The features which are used for this classfiction problem are the name of the countries, the teams continent, fifa ranking, the number of previous world champtionships, and wehther they were the host.</p>
-<p>I first did some explanatory data analysis to answer some of the questions I had in my mind about the previous world cup. Then, I did some feature selection analysis to determine important features need to be selected for model training. Finally, I trained a random forest model to predict the results of the next world-cup in 2022.</p>
+<ul>
+<li>The data from group stage world cups between 1998 to 2018 were collected to obtain a model from which the results of group stage world cup in 2022 can be predicted. The csv file for the data can be found <a href='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/WorldCup.csv'>here. </a></li>
+<li> A multi-class classfication model is fitted and used to predict wehther the first team wins, the teams draw or the second team wins.</li>
+<li> The features which are used for this classfiction problem are the name of the countries, the teams continent, fifa ranking, the number of previous world champtionships, and wehther they were the host.</li>
+<li>I first did some explanatory data analysis to answer some of the questions I had in my mind about the previous world cup. Then, I did some feature selection analysis to determine important features need to be selected for model training. Finally, I trained a random forest model to predict the results of the next world-cup in 2022.</li>
+ </ul>
 <h2> Determination of the Hardest Groups and the Easiest Groups in the Previous World-cups</h2> 
 * What were the hardest groups in the group stage in each of the previous world cups. I chose the hardest group based on the smallest average of the fifa world    ranking in each group. We plot a barplot to return the average of the teams rankings in each of the world cups:
   
