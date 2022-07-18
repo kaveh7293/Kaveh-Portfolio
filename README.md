@@ -121,7 +121,7 @@ The result of the corresponding classification modeling was  0.90 accuracy score
 <p> I repeated the above-mentioned classification modeling. In this time, I added the name of countries into my predictions. This is revealed that the accuracy score for the test data is less (i.e., <strong>0.44</strong>) in this situation.</p>
 <h2>The results of modeling</h2>
 <p> The results for the final model and final predictions are shown as follows. The following results are only for two groups. The full results can be found 
- <a href="https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/final_results.xlsx">here </a> .<br>
+ <a href="https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/final_results.xlsx">here </a> . Note that, I reported the probabilities rather than the predicted class, because I found it more interesting to report the probabilities especially because in the previous world-cups there have been some interesting results (e.g., Mexico and Korea won Germany) which could be explained by the probabilistic nature of the soccer matchs.<br>
 <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Screenshot%202022-07-17%20191646.png' width="600" height="400"><br>
 
 
