@@ -37,7 +37,7 @@ Example Data Science Portfolio
 <li> The easiest group in 2014 is: F (the group teams were Argentina, Bosnia, Iran,and Nigeria)
 <li> The easiest group in 2018 is: A (the group teams were Uruguay, Russia, Saudi_Arabia, and Egypt)</li>
           
-The code for the above results can be found [here](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Difficulty_Level.py)</p>
+The code for the above results can be found [here](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Difficulty_Level.py)
 
 <p>some additional information can be interpreted from above plots are:
  <ol>
