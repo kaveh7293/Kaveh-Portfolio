@@ -122,7 +122,7 @@ The result of the corresponding classification modeling was  0.90 accuracy score
 <h2>The results of modeling</h2>
 <p> The results for the final model and final predictions are shown as follows. The following results are only for two groups. The full results can be found 
  <a href="https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/final_results.xlsx">here </a> .<br>
-<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Screenshot%202022-07-17%20191646.png' width="600" height="1200"><br>
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Screenshot%202022-07-17%20191646.png' width="600" height="400"><br>
 
 
 </p>
