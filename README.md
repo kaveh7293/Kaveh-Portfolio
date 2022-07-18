@@ -17,7 +17,7 @@ Example Data Science Portfolio
 
    
 <p>The groups with the lowest average ranking are the hardest (death groups) and the groups with the maximum ranking are the easiest. We also determined this using python code.</p> 
-<p> The following results were obtained by our python code and can be seen from barplots as well: 
+<p> The following results were obtained by our python code and can be seen from barplots as well. The hardest group in the previous world-cups were: 
   <ul>         
          <li>The death group in 1998 is: H (the group teams were Japan, Argentina, Croatia, and Jamaica)</li>
          <li>The death group in 2002 is: F (the group teams were Argentina, England, Nigeria, and Sweden)</li>
@@ -25,26 +25,15 @@ Example Data Science Portfolio
          <li>The death group in 2010 is: D (the group teams were Germany, Australia, Ghana, and Serbia)</li>         
          <li>The death group in 2014 is: D (the group teams were Uruguay, Costa_Rica, Italy, and England)</li>         
          <li>The death group in 2018 is: E (the group teams were Brazil, Costa_Rica, Serbia, and Switzerland)</li>
-</ul>
-  * The easiest groups are:
-  
-          *The easiest group in 1998 is: D
-          the group teams were ["Spain'" "Paraguay'" "Bulgaria'" "Nigeria'"]
-          
-          *The easiest group in 2002 is: H
-          the group teams were ["Japan'" "Belgium'" "Tunisia'" "Russia'"]
-          
-          *The easiest group in 2006 is: G
-          the group teams were ["Switzerland'" "South_Korea'" "France'" "Togo'"]
-          
-          *The easiest group in 2010 is: F
-          the group teams were ["Italy'" "Paraguay'" "New_Zealand'" "Slovakia'"]
-          
-          *The easiest group in 2014 is: F
-          the group teams were ["Argentina'" "Bosnia'" "Iran'" "Nigeria'"]
-          
-          *The easiest group in 2018 is: A
-          the group teams were ["Uruguay'" "Russia'" "Saudi_Arabia'" "Egypt'"]
+</ul></p>
+<p>The easiest groups are:
+<ul> 
+<li>The easiest group in 1998 is: D (the group teams were Spain, Paraguay, Bulgaria, and Nigeria)</li>
+<li>The easiest group in 2002 is: H (the group teams were Japan, Belgium, Tunisia, and Russia)</li>
+<li> The easiest group in 2006 is: G (the group teams were Switzerland, South_Korea, France, and Togo)</li>
+<li> The easiest group in 2010 is: F (the group teams were Italy, Paraguay, New_Zealand, and Slovakia)</li>
+<li> The easiest group in 2014 is: F (the group teams were Argentina, Bosnia, Iran,and Nigeria)
+<li> The easiest group in 2018 is: A (the group teams were Uruguay, Russia, Saudi_Arabia, and Egypt)</li>
           
 The code for the above results can be found [here](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Difficulty_Level.py)
   * some additional information can be interpreted from above plots are:
