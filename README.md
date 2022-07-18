@@ -17,24 +17,25 @@ Example Data Science Portfolio
 
    
 <p>The groups with the lowest average ranking are the hardest (death groups) and the groups with the maximum ranking are the easiest. We also determined this using python code.</p> 
-  * The following results were obtained by our python code and can be seen from barplots as well:          
-  *The death group in 1998 is: H
-         the group teams were ["Japan'" "Argentina'" "Croatia'" "Jamaica'"]
+  * The following results were obtained by our python code and can be seen from barplots as well: 
+  <ul>         
+  <li>The death group in 1998 is: H <br>
+         the group teams were ["Japan'" "Argentina'" "Croatia'" "Jamaica'"]<\li>
          
-         *The death group in 2002 is: F
-         the group teams were ["Argentina'" "England'" "Nigeria'" "Sweden'"]
+         <li>The death group in 2002 is: F<br>
+         the group teams were ["Argentina'" "England'" "Nigeria'" "Sweden'"]<\li>
          
-         *The death group in 2006 is: E
-         the group teams were ["Italy'" "Ghana'" "Czechia'" "USA'"]
+         <li>The death group in 2006 is: E<br>
+         the group teams were ["Italy'" "Ghana'" "Czechia'" "USA'"]<\li>
          
-         *The death group in 2010 is: D
-         the group teams were ["Germany'" "Australia'" "Ghana'" "Serbia'"]
+         <li>The death group in 2010 is: D<br>
+         the group teams were ["Germany'" "Australia'" "Ghana'" "Serbia"]<\li>
          
-         *The death group in 2014 is: D
-         the group teams were ["Uruguay'" "Costa_Rica'" "Italy'" "England'"]
+         <li>The death group in 2014 is: D<br>
+         the group teams were ["Uruguay'" "Costa_Rica'" "Italy'" "England'"]<\li>
          
-         *The death group in 2018 is: E
-         the group teams were ["Brazil'" "Costa_Rica'" "Serbia'" "Switzerland'"]
+         <li>The death group in 2018 is: E<br>
+         the group teams were ["Brazil'" "Costa_Rica'" "Serbia'" "Switzerland'"]<\li>
 
   * The easiest groups are:
   
@@ -121,7 +122,7 @@ The result of the corresponding classification modeling was  0.90 accuracy score
 <p> I repeated the above-mentioned classification modeling. In this time, I added the name of countries into my predictions. This is revealed that the accuracy score for the test data is less (i.e., <strong>0.44</strong>) in this situation.</p>
 <h2>The results of modeling</h2>
 <p> The results for the final model and final predictions are shown as follows. The following results are only for two groups. The full results can be found 
- <a href="https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/final_results.xlsx">here </a> . Note that, I reported the probabilities rather than the predicted class, because I found it more interesting to report the probabilities especially because in the previous world-cups there have been some interesting results (e.g., Mexico and Korea won Germany) which could be explained by the probabilistic nature of the soccer matchs.<br>
+ <a href="https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/final_results.xlsx">here </a> . Note that, I reported the probabilities rather than the predicted class, because I found it more interesting to report the probabilities especially because in the previous world-cups there have been some interesting results (e.g., Mexico and Korea won Germany) which could be explained by the probabilistic nature of the soccer matchs.<br><br>
 <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Screenshot%202022-07-17%20191646.png' width="600" height="400"><br>
 
 
