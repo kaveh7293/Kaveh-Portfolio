@@ -17,10 +17,9 @@ Example Data Science Portfolio
 
    
 <p>The groups with the lowest average ranking are the hardest (death groups) and the groups with the maximum ranking are the easiest. We also determined this using python code.</p> 
-  * The following results were obtained by our python code and can be seen from barplots as well: 
+The following results were obtained by our python code and can be seen from barplots as well: 
   <ul>         
-          <li>The death group in 1998 is: H <br>
-         the group teams were ["Japan'" "Argentina'" "Croatia'" "Jamaica'"]</li>
+         <li>The death group in 1998 is: H (the group teams were Japan, Argentina, Croatia, and Jamaica)</li>
          
          <li>The death group in 2002 is: F <br>
          the group teams were ["Argentina'" "England'" "Nigeria'" "Sweden'"]</li>
