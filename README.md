@@ -93,8 +93,7 @@ The effect of features can be seen using count plot and heat map plot generated 
 
 The heat maps are also can be used to conculde the same result:<br>
 
-<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map1.png' width="400" height="1200">
-<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/heat_map2.png' width="400" height="1200"><br>
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image1627.png' width="400" height="1200"><br>
 
 * Hypothesis testing: Since both of the Country and Result columns are categorical, we did a chi-squared hypothesis test. The resulting p value obtained 1.99 e-9. As a reult we reject the null hypothesis in favour of alternative hypothesis (i.e., the country and results are dependent)
 
