@@ -21,18 +21,10 @@ Example Data Science Portfolio
   <ul>         
          <li>The death group in 1998 is: H (the group teams were Japan, Argentina, Croatia, and Jamaica)</li>
          <li>The death group in 2002 is: F (the group teams were Argentina, England, Nigeria, and Sweden)</li>
-         
-         <li> The death group in 2006 is: E <br>
-         the group teams were ["Italy'" "Ghana'" "Czechia'" "USA'"]</li>
-         
-         <li>The death group in 2010 is: D <br>
-         the group teams were ["Germany'" "Australia'" "Ghana'" "Serbia"]</li>
-         
-         <li>The death group in 2014 is: D <br>
-         the group teams were ["Uruguay'" "Costa_Rica" "Italy'" "England'"]</li>
-         
-         <li>The death group in 2018 is: E <br>
-         the group teams were ["Brazil'" "Costa_Rica'" "Serbia'" "Switzerland'"]</li>
+         <li> The death group in 2006 is: E (the group teams were Italy, Ghana, Czechia, and USA)</li>
+         <li>The death group in 2010 is: D (the group teams were Germany, Australia, Ghana, and Serbia)</li>         
+         <li>The death group in 2014 is: D (the group teams were Uruguay, Costa_Rica, Italy, and England)</li>         
+         <li>The death group in 2018 is: E (the group teams were Brazil, Costa_Rica, Serbia, and Switzerland)</li>
 </ul>
   * The easiest groups are:
   
