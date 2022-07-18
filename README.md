@@ -19,24 +19,24 @@ Example Data Science Portfolio
 <p>The groups with the lowest average ranking are the hardest (death groups) and the groups with the maximum ranking are the easiest. We also determined this using python code.</p> 
   * The following results were obtained by our python code and can be seen from barplots as well: 
   <ul>         
-  <li>The death group in 1998 is: H <br>
-         the group teams were ["Japan'" "Argentina'" "Croatia'" "Jamaica'"]<\li>
+          <li>The death group in 1998 is: H <br>
+         the group teams were ["Japan'" "Argentina'" "Croatia'" "Jamaica'"]</li>
          
          <li>The death group in 2002 is: F<br>
-         the group teams were ["Argentina'" "England'" "Nigeria'" "Sweden'"]<\li>
+         the group teams were ["Argentina'" "England'" "Nigeria'" "Sweden'"]</li>
          
          <li>The death group in 2006 is: E<br>
-         the group teams were ["Italy'" "Ghana'" "Czechia'" "USA'"]<\li>
+         the group teams were ["Italy'" "Ghana'" "Czechia'" "USA'"]</li>
          
          <li>The death group in 2010 is: D<br>
-         the group teams were ["Germany'" "Australia'" "Ghana'" "Serbia"]<\li>
+         the group teams were ["Germany'" "Australia'" "Ghana'" "Serbia"]</li>
          
          <li>The death group in 2014 is: D<br>
-         the group teams were ["Uruguay'" "Costa_Rica'" "Italy'" "England'"]<\li>
+         the group teams were ["Uruguay'" "Costa_Rica'" "Italy'" "England'"]</li>
          
          <li>The death group in 2018 is: E<br>
-         the group teams were ["Brazil'" "Costa_Rica'" "Serbia'" "Switzerland'"]<\li>
-
+         the group teams were ["Brazil'" "Costa_Rica'" "Serbia'" "Switzerland'"]</li>
+</ul>
   * The easiest groups are:
   
           *The easiest group in 1998 is: D
