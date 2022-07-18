@@ -109,4 +109,6 @@ The result of the corresponding classification modeling was  0.90 accuracy score
 <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Screenshot%202022-07-17%20191646.png' width="650" height="400"><br>
 
 
+<p> The code for all of above analysis can be found <a href='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Olympic_Data_Analysis.py'> here.</a>
+
 </p>
