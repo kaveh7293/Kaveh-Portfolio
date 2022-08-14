@@ -56,15 +56,50 @@
   </tr>
 </table> 
 
-<ul>         
-         <li>The death group in 1998 is: H (the group teams were Japan, Argentina, Croatia, and Jamaica)</li>
-         <li>The death group in 2002 is: F (the group teams were Argentina, England, Nigeria, and Sweden)</li>
-         <li> The death group in 2006 is: E (the group teams were Italy, Ghana, Czechia, and USA)</li>
-         <li>The death group in 2010 is: D (the group teams were Germany, Australia, Ghana, and Serbia)</li>         
-         <li>The death group in 2014 is: D (the group teams were Uruguay, Costa_Rica, Italy, and England)</li>         
-         <li>The death group in 2018 is: E (the group teams were Brazil, Costa_Rica, Serbia, and Switzerland)</li>
-</ul></p>
+</p>
 <p>The easiest groups are:
+ 
+  <table>
+  <tr>
+    <th>World Cup</th>
+    <th>Group</th>
+    <th>Teams</th>
+  
+
+  </tr>
+  <tr>
+    <td>1998</td>
+    <td>D</td>
+    <td>Spain, Paraguay, Bulgaria, and Nigeria</td>
+  </tr>
+  <tr>
+    <td>2002</td>
+    <td></td>
+    <td> Japan, Belgium, Tunisia, and Russia</td>
+  </tr> 
+  <tr>
+    <td>2006</td>
+    <td>G</td>
+    <td>Switzerland, South_Korea, France, and Togo</td>
+  </tr>
+    <tr>
+    <td>2010</td>
+    <td>F</td>
+    <td>Italy, Paraguay, New_Zealand, and Slovakia</td>
+  </tr>
+  
+  <tr>
+    <td>2014</td>
+    <td>F</td>
+    <td>Argentina, Bosnia, Iran,and Nigeria</td>
+  </tr>
+<tr>
+ <td>2018</td>
+ <td>A/td>
+  <td>Uruguay, Russia, Saudi_Arabia, and Egypt</td>
+  </tr>
+</table> 
+
 <ul> 
 <li>The easiest group in 1998 is: D (the group teams were Spain, Paraguay, Bulgaria, and Nigeria)</li>
 <li>The easiest group in 2002 is: H (the group teams were Japan, Belgium, Tunisia, and Russia)</li>
