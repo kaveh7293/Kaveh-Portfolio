@@ -148,7 +148,11 @@ As shown, the results of visualization is only good for checking the intuition a
 <p> I also did a feature selection based on the correlation coefficient between the dependenet variable and the features that have been transformed (for those features that are categorical) and scaled. The following figures show that there are 211 features where a majority of them have very small correlation witht the dependent variable. The large number of features can be attributed to the onehot enconding which result a high number of columns since there are so many countries. 
 
 <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/download.png'><br>
-The results showed that only 43 features were important and the rest of features have small correlation (i.e., below 0.1) with the dependent variables.
+The results showed that only 43 features were important and the rest of features have small correlation (i.e., below 0.1) with the dependent variables.</p>
+ <h5> disadvantage</h5>
+ <p>
+<h4> Feature selection using a wrapper-based method</h4>
+ <p> This method uses a classfication model to evaluate whether containing a feature during classification have important effects on the quality of the prediction.  By doing so, the modeler can decide to chosse the optimal number of parameters. I used from feature-selection module in sklearn </li>
 
  <h2> Feature Selection</h2>
 
