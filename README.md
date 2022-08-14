@@ -90,6 +90,10 @@ As shown, different teams have different number of wins, draws and loses. As suc
 As shown, the results of visualization is only good for checking the intuition and see a general trends. Different methods such as filter-based and feature-based techniques are better to be used to make statistical conclusion about the important features.
 <h3> Filter-based feature selection</h3>
  <h4>Feature selection based on hypothesis testing</h4>
+ 
+ Because we have different types of features, different statistical hypothesis tests should be make to find out whether the corresponding results are dependant on specific features. The following table shows the results of the hypothesis test for different features that have been used.
+ 
+ 
  <h2> Feature Selection</h2>
 
  Hypothesis testing: Since both of the Country and Result columns are categorical, we did a chi-squared hypothesis test. The resulting p value obtained 1.99 e-9. As a reult we reject the null hypothesis in favour of alternative hypothesis (i.e., the country and results are dependent)
