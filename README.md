@@ -98,15 +98,7 @@
  <td>A</td>
   <td>Uruguay, Russia, Saudi_Arabia, and Egypt</td>
 </tr>
-</table> 
-
-<ul> 
-<li>The easiest group in 1998 is: D (the group teams were Spain, Paraguay, Bulgaria, and Nigeria)</li>
-<li>The easiest group in 2002 is: H (the group teams were Japan, Belgium, Tunisia, and Russia)</li>
-<li> The easiest group in 2006 is: G (the group teams were Switzerland, South_Korea, France, and Togo)</li>
-<li> The easiest group in 2010 is: F (the group teams were Italy, Paraguay, New_Zealand, and Slovakia)</li>
-<li> The easiest group in 2014 is: F (the group teams were Argentina, Bosnia, Iran,and Nigeria)
-<li> The easiest group in 2018 is: A (the group teams were Uruguay, Russia, Saudi_Arabia, and Egypt)</li>
+</table> <br>
           
 The code for the above results can be found [here](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Difficulty_Level.py)
 
