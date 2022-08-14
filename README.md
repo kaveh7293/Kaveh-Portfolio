@@ -74,7 +74,7 @@
   </tr>
   <tr>
     <td>2002</td>
-    <td></td>
+    <td>H</td>
     <td> Japan, Belgium, Tunisia, and Russia</td>
   </tr> 
   <tr>
@@ -95,9 +95,9 @@
   </tr>
 <tr>
  <td>2018</td>
- <td>A/td>
+ <td>A</td>
   <td>Uruguay, Russia, Saudi_Arabia, and Egypt</td>
-  </tr>
+</tr>
 </table> 
 
 <ul> 
