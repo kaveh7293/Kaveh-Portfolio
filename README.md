@@ -192,10 +192,10 @@ As shown, the results of visualization is only good for checking the intuition a
 </table><br>
  <p> As shown for all of the hypothsis tests, the p-values are small, so we can reject the null hypthesis in favour of alternative hypothesis (i.e., all the features are important).
 <h4> Feature-based selection based on correlation coefficients</h4>
-<p> I also did a feature selection based on the correlation coefficient between the dependenet variable and the features that have been transformed (for those features that are categorical) and scaled. The following figures show that there are 211 features where a majority of them have very small correlation witht the dependent variable. The large number of features can be attributed to the onehot enconding which result a high number of columns since there are so many countries. 
+<p> I also did a feature selection based on the correlation coefficient between the dependenet variable and the features that have been transformed (for those features that are categorical) and scaled. The following figures show that there are 25 features where a majority of them have very small correlation with the dependent variable. The large number of features can be attributed to the onehot enconding which result a high number of columns since there are so many countries. 
 
-<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/download.png'><br>
-The results showed that only 43 features were important and the rest of features have small correlation (i.e., below 0.1) with the dependent variables.</p>
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/3.png' height='350'><br>
+The results showed that only 19 features were important and the rest of features have small correlation (i.e., below 0.1) with the dependent variables.</p>
  <h5> disadvantage</h5>
  <p> Disadvantage of all the wrapper-based methods is that they do not account for correlation between features. As a result, two correlated features might be selected because their influence on the outputs are large.
  <p>
