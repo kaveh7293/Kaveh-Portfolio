@@ -44,7 +44,7 @@
     <td>Germany, Australia, Ghana, and Serbia</td>
   </tr>
   
-    <tr>
+  <tr>
     <td>2014</td>
     <td>D</td>
     <td>Uruguay, Costa_Rica, Italy, and England</td>
