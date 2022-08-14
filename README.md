@@ -9,7 +9,7 @@
 <h2> Explanatory Data Analysis</h2>
 <h3> Determination of the Hardest Groups and the Easiest Groups in the Previous World-cups</h3> 
 <p>What were the hardest groups in the group stage in each of the previous world cups. I chose the hardest group based on the smallest average of the fifa world    ranking in each group. We plot a barplot to return the average of the teams rankings in each of the world cups:<br>
-  
+  <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/d1.png'><br>
   <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/1998.png'><br>
   <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2002.png'><br>
   <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2006.png'><br>
