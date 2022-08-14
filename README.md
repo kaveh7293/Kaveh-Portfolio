@@ -84,7 +84,10 @@ The code for generation of the above results can be found [here](https://github.
  <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_losts.png'><br>
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_draws.png'><br>
 
-As shown, different teams have different number of wins, draws and loses. As such the name of the countries could be important feature which should be accounted for during model development. </p>
+As shown, different teams have different number of wins, draws and loses. As such the name of the countries could be important feature which should be accounted for during model development.  </p>
+ <p> The effect of fifa ranking and whether the countries are host or not are investigated in the folowing plots:<br>
+  <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Picture4.png'><br>
+
 
 <h2> Feature Selection</h2>
 
@@ -96,7 +99,6 @@ As shown, different teams have different number of wins, draws and loses. As suc
   *Note that in the above hypothesis testings, we first created a contingency table (using pandas.crosstab), and then using the contingency table we could perform the hypothesis test (using stats.chi2contingency). 
  Finally, we did a one-way Anova F-test to determine whether numerical features affect the results that the teams had. The numerical features are the fifa ranking and the number of previous championships. I used scipy.stats.f_oneway in order to implement this hypothesis test. The corresponding p values for these tests obtained to be 1.88 e-12 (effect of fifa ranking) and 1.82 e-6 (effect of previous world championships), so we can assure that both of these features have effect on the performance of the teams on each game. The following plots also confirm the results of those hypothesis tests:<br>
  
-<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Picture4.png'><br>
 
 
 
