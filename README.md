@@ -75,10 +75,10 @@ The code for generation of the above results can be found [here](https://github.
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_draws.png'><br>
 
 As shown, different teams have different number of wins, draws and loses. </p>
-The heat maps are also can be used to conculde the same result:<br>
 
+<h2> Feature Selection</p>
 
-* Hypothesis testing: Since both of the Country and Result columns are categorical, we did a chi-squared hypothesis test. The resulting p value obtained 1.99 e-9. As a reult we reject the null hypothesis in favour of alternative hypothesis (i.e., the country and results are dependent)
+ Hypothesis testing: Since both of the Country and Result columns are categorical, we did a chi-squared hypothesis test. The resulting p value obtained 1.99 e-9. As a reult we reject the null hypothesis in favour of alternative hypothesis (i.e., the country and results are dependent)
 
 * Because the continents are also a cateogrical type of data, we used a chi-squared test as well to assess whether there is a relationship between continents and the corresponding results. The p-value for the corresponding hypothesis test (null hypothesis: continents and their results are independent variables) obtained 3.3 e-9, which rejects the null hypothesis. 
 * Finally, the chi-squared test has been used to evaluate whether being a host affect the results a team get, the corresponding p-value was obtained 0.02 showing the important effect of being a host. 
