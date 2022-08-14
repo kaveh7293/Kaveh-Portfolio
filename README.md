@@ -6,7 +6,7 @@
 <li>I first did some explanatory data analysis to answer some of the questions I had in my mind about the previous world cup. Then, I did some feature selection analysis to determine important features need to be selected for model training. Finally, I trained a random forest model to predict the results of the next world-cup in 2022.</li>
  </ul>
 <h2> Determination of the Hardest Groups and the Easiest Groups in the Previous World-cups</h2> 
-* What were the hardest groups in the group stage in each of the previous world cups. I chose the hardest group based on the smallest average of the fifa world    ranking in each group. We plot a barplot to return the average of the teams rankings in each of the world cups:
+<p>What were the hardest groups in the group stage in each of the previous world cups. I chose the hardest group based on the smallest average of the fifa world    ranking in each group. We plot a barplot to return the average of the teams rankings in each of the world cups:<br>
   
   <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/1998.png'><br>
   <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2002.png'><br>
@@ -14,7 +14,7 @@
   <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2010.png'><br>
   <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2014.png'><br>
   <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/2018.png'><br>
-
+</p>
    
 <p>The groups with the lowest average ranking are the hardest (death groups) and the groups with the maximum ranking are the easiest. We also determined this using python code.</p> 
 <p> The following results were obtained by our python code and can be seen from barplots as well. The hardest group in the previous world-cups were: 
