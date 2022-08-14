@@ -93,7 +93,27 @@ As shown, the results of visualization is only good for checking the intuition a
  
  Because we have different types of features, different statistical hypothesis tests should be make to find out whether the corresponding results are dependant on specific features. The following table shows the results of the hypothesis test for different features that have been used.
  
- 
+ <table>
+  <tr>
+    <th>Feature</th>
+    <th>Feature Type</th>
+    <th>Hypothesis Test</th>
+    <th>Null Hypothesis</th>
+   <th> p value</th>
+   
+
+  </tr>
+  <tr>
+    <td>Country</td>
+    <td>Categorical</td>
+    <td>Chi-squared test</td>
+   <td>Results and the country feature are independent</td>
+   <td>1.99e-9</td>
+  </tr>
+</table>
+More "Try it Yourself" examples below.
+
+
  <h2> Feature Selection</h2>
 
  Hypothesis testing: Since both of the Country and Result columns are categorical, we did a chi-squared hypothesis test. The resulting p value obtained 1.99 e-9. As a reult we reject the null hypothesis in favour of alternative hypothesis (i.e., the country and results are dependent)
