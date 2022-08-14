@@ -78,8 +78,8 @@ The code for generation of the above results can be found [here](https://github.
     <li> Feature selection based on hypothesis testing</li>
    </ul>
     <li>Wrapper-based feature selection</li></ol>
-      
-<p>The effect of features can be seen using count plot and heat map plot:<br>
+<h3> Feature selection based on visualization</h3>
+ <p> This type of feature selection is not very statistically sound, but it is straightforward and can be used to obtain general information about the relationship between different features and the corresponding results.For example, in the following the relationsip between country name and the number of wins they had are drawn using countplots:<br>
  <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_Wins.png'><br>
  <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_losts.png'><br>
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_draws.png'><br>
