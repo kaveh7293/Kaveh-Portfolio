@@ -9,7 +9,7 @@
 <h2> Explanatory Data Analysis</h2>
 <h3> Determination of the Hardest Groups and the Easiest Groups in the Previous World-cups</h3> 
 <p>What were the hardest groups in the group stage in each of the previous world cups. I chose the hardest group based on the smallest average of the fifa world    ranking in each group. We plot a barplot to return the average of the teams rankings in each of the world cups:<br>
-  <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/d1.png'><br>
+  <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/2.png' width='600'><br>
 </p>
    
 <p>The groups with the lowest average ranking are the hardest (death groups) and the groups with the maximum ranking are the easiest. We also determined this using python code.</p> 
@@ -116,7 +116,7 @@ The code for the above results can be found [here](https://github.com/kaveh7293/
 
 <p>As shown, only the countries from Europe and South America have more wins than draws and loses. In the following the plot of average points per game for countries from different continents are shown for different world cup years:</p><br>
 
-<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image2461.png' heigt='2000' width='500'>
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image2461.png'  width='600'>
 
 
 <p>The plot shows that African countries performances get worse after world cup 1998. Asian countries performance is better in 2002, 2010 and 2018 world cups compared to their performance in 2006 and 20014. The best performace of Asian countries is in world cup 2002 when Japan and Korea were the hosts. South American counteries performance was very bad in 2002 with an average of about 0.6 points per game (Uruguay and Argentina were eliminated in the group stage). Finally, the plot for performance of different countries in the previous worldcups are shown in the following:<br>
@@ -136,7 +136,7 @@ The code for generation of the above results can be found [here](https://github.
     <li>Wrapper-based feature selection</li></ol>
 <h3> Feature selection based on visualization</h3>
  <p> This type of feature selection is not very statistically sound, but it is straightforward and can be used to obtain general information about the relationship between different features and the corresponding results. In the following, the effect of fifa ranking and whether the countries are host or not are investigated in the folowing plots:<br>
-<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image3079.png'  height='300'><br>
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image3079.png'  width='600'><br>
   The effect of different teams from different continents on the corresponding results can also be investigated using a plot showing the average points per game for the contries from different countries:<br>
 
 <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/download4.png' width='420' height='350'><br>
