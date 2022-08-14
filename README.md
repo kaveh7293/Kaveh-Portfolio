@@ -155,19 +155,38 @@ The results showed that only 43 features were important and the rest of features
 <h4> Feature selection using a wrapper-based method</h4>
  <p> This method uses a classfication model to evaluate whether containing a feature during classification have important effects on the quality of the prediction.  By doing so, the modeler can decide to chosse the optimal number of parameters. I used from feature-selection module in sklearn. I chose the first 50 features that have been ranked first by the model. The advantage of this method is that it accounts for correlation between the features </li>
 
- <h2> Feature Selection</h2>
-
- Hypothesis testing: Since both of the Country and Result columns are categorical, we did a chi-squared hypothesis test. The resulting p value obtained 1.99 e-9. As a reult we reject the null hypothesis in favour of alternative hypothesis (i.e., the country and results are dependent)
-
-* Because the continents are also a cateogrical type of data, we used a chi-squared test as well to assess whether there is a relationship between continents and the corresponding results. The p-value for the corresponding hypothesis test (null hypothesis: continents and their results are independent variables) obtained 3.3 e-9, which rejects the null hypothesis. 
-*  The corresponding p values for these tests obtained to be 1.88 e-12 (effect of fifa ranking) and 1.82 e-6 (effect of previous world championships), so we can assure that both of these features have effect on the performance of the teams on each game. The following plots also confirm the results of those hypothesis tests:<br>
+ 
  
 
 
 
 
 <h2> Using a Model for Classification </h2>
-<p> In this section we used several models to predict the results of the games in the previous wrold cups and then use the trained model to predict the results of world cup 2022 in Qatar. </p>
+<p> In this section, I used two models to predict the results of the games in the previous wrold cups and then use the trained model to predict the results of world cup 2022 in Qatar.  I used random forrest method and XGboost for classfication modeling. I used a randomized search method to obtain the optimal hyperparameters for these models. Finally, I tested the optimal model on the test dataset to evaulate which of these two models are the best. Note that, I used the test data to evaluate whether overfitting occurs or not. After making sure that there is no overfitting, I used the best model and fitted the whole data (including training and test data) with the same hyperparameters so that overfitting does not occur. The result of prediction quality are shown in the following table. As can be seen both methods have the same accuracy when they are used for test data set. However, the accuracy of the results for the training data shows that the random forest is overfitting the training data. As such, I used the XGboost and fit the whole data onto that.
+
+
+
+ <table>
+  <tr>
+    <th>Model</th>
+    <th>Training Data Prediction Accuracy</th>
+    <th>Test Data Prediction Accuracy</th>
+  
+
+  </tr>
+  <tr>
+    <td><strong>XGboost</strong></td>
+    <td>0.49</td>
+    <td>0.51</td>
+  </tr>
+  <tr>
+    <td><strong>XGboost</strong></td>
+    <td>0.87</td>
+    <td>0.51</td>
+  </tr>
+ 
+</p>
+
 
 <p>I used a <strong> random forest model</strong> to train the data from the previous world cups. In the first model, we did not select the column countries, to avoid overfitting (there is a correlation between the countries and continents, as shown in the explanatory data analysis section, most of the countries from Europe and South America have a higher number of wins). I used a <strong>randomized-search cross-validation </strong> method (i.e., using sklearn.model_selection.RandomizedSearchCV) to select the appropriate hyperparameters. The following values for the corresponding hyperparameters are recommended based on the cross validation results:<br>
 <strong>RandomForestClassifier(bootstrap=False, max_depth=54, max_features='sqrt',
