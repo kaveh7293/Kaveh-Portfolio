@@ -120,7 +120,7 @@ The code for the above results can be found [here](https://github.com/kaveh7293/
 
 
 <p>The plot shows that African countries performances get worse after world cup 1998. Asian countries performance is better in 2002, 2010 and 2018 world cups compared to their performance in 2006 and 20014. The best performace of Asian countries is in world cup 2002 when Japan and Korea were the hosts. South American counteries performance was very bad in 2002 with an average of about 0.6 points per game (Uruguay and Argentina were eliminated in the group stage). Finally, the plot for performance of different countries in the previous worldcups are shown in the following:<br>
-<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image3078.png'><br>
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image3078.png'  ><br>
 
 The code for generation of the above results can be found [here](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Performance_of_countries.py)</p>
 
@@ -139,7 +139,7 @@ The code for generation of the above results can be found [here](https://github.
 <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image3079.png'  width='600'><br>
   The effect of different teams from different continents on the corresponding results can also be investigated using a plot showing the average points per game for the contries from different countries:<br>
 
-<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/download4.png' width='420' height='350'><br>
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/download4.png' width='350'><br>
 As shown, the results of visualization is only good for checking the intuition and see a general trends. Different methods such as filter-based and feature-based techniques are better to be used to make statistical conclusion about the important features.
 <h3> Filter-based feature selection</h3>
  <h4>Feature selection based on hypothesis testing</h4>
@@ -156,13 +156,7 @@ As shown, the results of visualization is only good for checking the intuition a
    
 
   </tr>
-  <tr>
-    <td>Country</td>
-    <td>Categorical</td>
-    <td>Chi-squared test</td>
-   <td>Depedent variable and the feature are independent</td>
-   <td>1.99e-9</td>
-  </tr>
+
   
   <tr>
     <td>Continents</td>
