@@ -189,18 +189,80 @@ The results showed that only 43 features were important and the rest of features
 </p>
 
 
-<p>I used a <strong> random forest model</strong> to train the data from the previous world cups. In the first model, we did not select the column countries, to avoid overfitting (there is a correlation between the countries and continents, as shown in the explanatory data analysis section, most of the countries from Europe and South America have a higher number of wins). I used a <strong>randomized-search cross-validation </strong> method (i.e., using sklearn.model_selection.RandomizedSearchCV) to select the appropriate hyperparameters. The following values for the corresponding hyperparameters are recommended based on the cross validation results:<br>
-<strong>RandomForestClassifier(bootstrap=False, max_depth=54, max_features='sqrt',
-                       min_samples_split=10, n_estimators=50)</strong><br>
-The result of the corresponding classification modeling was  0.90 accuracy score for the training data set and <strong>0.54</strong> accuracy score for the testing data set. As can be seen, there is a overfitting in the corresponding model. Using an accuracy score of 0.54 is also not that bad compared to random sampling of the resilts which have a assymptotic accuracy of 0.33.
-</p>
-<p> I repeated the above-mentioned classification modeling. In this time, I added the name of countries into my predictions. This is revealed that the accuracy score for the test data is less (i.e., <strong>0.44</strong>) in this situation.</p>
-<h2>The results of modeling</h2>
-<p> The results for the final model and final predictions are shown as follows. The following results are only for two groups. The full results can be found 
+<p> The results for the final model and final predictions are shown as follows. The following results are only for the first group. The full results can be found 
  <a href="https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/final_results.xlsx">here </a> . Note that, I reported the probabilities rather than the predicted classes, because I found it more interesting to report the probabilities especially because in the previous world-cups there have been some interesting results (e.g., Mexico and Korea won Germany) which could be explained by the probabilistic nature of the soccer matchs.<br><br>
-<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Screenshot%202022-07-17%20191646.png' width="650" height="400"><br>
+<table>
+  <tr>
+    <th>Team1</th>
+    <th>Team2</th>
+    <th>Probability (%) that Team1 will win </th>
+    <th>Probability (%) that Team2 will win </th>
+    <th>Probability (%) that Team1 and Team2 draw </th>
 
+
+  </tr>
+  <tr>
+    <td>Qatar</td>
+    <td>Equador</td>
+    <td>33</td>
+    <td>25</td>
+    <td>42</td>
+
+ </tr>
+ <tr>
+    <td>Qatar</td>
+    <td>Senegal</td>
+    <td>46</td>
+    <td>36</td>
+    <td>18</td>
+
+ </tr>
+ 
+ <tr>
+    <td>Qatar</td>
+    <td>Netherlands</td>
+    <td>46</td>
+    <td>36</td>
+    <td>17</td>
+
+ </tr>
+ 
+ <tr>
+    <td>Equador</td>
+    <td>Senegal</td>
+    <td>25</td>
+    <td>20</td>
+    <td>55</td>
+
+ </tr>
+ 
+ <tr>
+    <td>Equador</td>
+    <td>Netherlands</td>
+    <td>25</td>
+    <td>20</td>
+    <td>55</td>
+
+ </tr>
+ 
+ <tr>
+    <td>Senegal</td>
+    <td>Netherlands</td>
+    <td>46</td>
+    <td>36</td>
+    <td>18</td>
+
+ </tr>
+  <tr>
+    <td>Random Forest</td>
+    <td>0.87</td>
+    <td>0.51</td>
+  </tr> </table>
+
+ 
 
 <p> The code for all of above analysis can be found <a href='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/World_Cup.ipynb'> here.</a>
+ 
+ 
 
 </p>
