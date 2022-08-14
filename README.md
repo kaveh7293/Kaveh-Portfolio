@@ -139,7 +139,7 @@ The code for generation of the above results can be found [here](https://github.
   <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Picture4.png'><br>
   The effect of different teams from different continents on the corresponding results can also be investigated using a plot showing the average points per game for the contries from different countries:<br>
 
-<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances_Points.png' width='420' height='300'><br>
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image3079.png' width='420' height='300'><br>
 As shown, the results of visualization is only good for checking the intuition and see a general trends. Different methods such as filter-based and feature-based techniques are better to be used to make statistical conclusion about the important features.
 <h3> Filter-based feature selection</h3>
  <h4>Feature selection based on hypothesis testing</h4>
