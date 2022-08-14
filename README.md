@@ -183,7 +183,8 @@ The results showed that only 43 features were important and the rest of features
     <td><strong>XGboost</strong></td>
     <td>0.87</td>
     <td>0.51</td>
-  </tr><br>
+  </tr> </table>
+<br>
  
 </p>
 
