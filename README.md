@@ -88,7 +88,9 @@ As shown, different teams have different number of wins, draws and loses. As suc
 
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances_Points.png' width='500' height='350'><br>
 As shown, the results of visualization is only good for checking the intuition and see a general trends. Different methods such as filter-based and feature-based techniques are better to be used to make statistical conclusion about the important features.
-<h2> Feature Selection</h2>
+<h3> Filter-based feature selection</h3>
+ <h4>Feature selection based on hypothesis testing</h4>
+ <h2> Feature Selection</h2>
 
  Hypothesis testing: Since both of the Country and Result columns are categorical, we did a chi-squared hypothesis test. The resulting p value obtained 1.99 e-9. As a reult we reject the null hypothesis in favour of alternative hypothesis (i.e., the country and results are dependent)
 
