@@ -107,7 +107,7 @@ As shown, the results of visualization is only good for checking the intuition a
     <td>Country</td>
     <td>Categorical</td>
     <td>Chi-squared test</td>
-   <td>Depedent variable and the country feature are independent</td>
+   <td>Depedent variable and the feature are independent</td>
    <td>1.99e-9</td>
   </tr>
   
@@ -115,14 +115,14 @@ As shown, the results of visualization is only good for checking the intuition a
     <td>Continents</td>
     <td>Categorical</td>
     <td>Chi-squared test</td>
-   <td>Depedent variable and the continent feature are independent</td>
+   <td>Depedent variable and the feature are independent</td>
    <td>3.3e-9</td>
   </tr>
   <tr>
     <td>Being a host</td>
     <td>Categorical</td>
     <td>Chi-squared test</td>
-   <td>Depedent variable and the continent feature are independent</td>
+   <td>Depedent variable and the feature are independent</td>
    <td>0.02</td>
   </tr>
   
@@ -131,7 +131,7 @@ As shown, the results of visualization is only good for checking the intuition a
     <td>One-way Anova F-test</td>
     <td>Numerical</td>
     <td>Fifa ranking test</td>
-   <td>Depedent variable and the fifa ranking feature are independent</td>
+   <td>Depedent variable and the feature are independent</td>
    <td>1.88e-12</td>
   </tr>
   
