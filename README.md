@@ -116,6 +116,7 @@ The code for the above results can be found [here](https://github.com/kaveh7293/
 
 <p>As shown, only the countries from Europe and South America have more wins than draws and loses. In the following the plot of average points per game for countries from different continents are shown for different world cup years:</p><br>
 
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image2461.png' heigt='2000' width='500'>
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Africa.png'><br>
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Concacaf.png'><br>
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Europe.png'><br>
