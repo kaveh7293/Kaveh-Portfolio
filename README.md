@@ -162,7 +162,7 @@ The results showed that only 43 features were important and the rest of features
 
 
 <h2> Using a Model for Classification </h2>
-<p> In this section, I used two models to predict the results of the games in the previous wrold cups and then use the trained model to predict the results of world cup 2022 in Qatar.  I used random forrest method and XGboost for classfication modeling. I used a randomized search method to obtain the optimal hyperparameters for these models. Finally, I tested the optimal model on the test dataset to evaulate which of these two models are the best. Note that, I used the test data to evaluate whether overfitting occurs or not. After making sure that there is no overfitting, I used the best model and fitted the whole data (including training and test data) with the same hyperparameters so that overfitting does not occur. The result of prediction quality are shown in the following table. As can be seen both methods have the same accuracy when they are used for test data set. However, the accuracy of the results for the training data shows that the random forest is overfitting the training data. As such, I used the XGboost and fit the whole data onto that.
+<p> In this section, I used two models to predict the results of the games in the previous wrold cups and then use the trained model to predict the results of world cup 2022 in Qatar.  I used random forrest method and XGboost for classfication modeling. I used a randomized search method to obtain the optimal hyperparameters for these models. Finally, I tested the optimal model on the test dataset to evaulate which of these two models are the best. Note that, I used the test data to evaluate whether overfitting occurs or not. After making sure that there is no overfitting, I used the best model and fitted the whole data (including training and test data) with the same hyperparameters so that overfitting does not occur. The result of prediction quality are shown in the following table. As can be seen both methods have the same accuracy when they are used for test data set. However, the accuracy of the results for the training data shows that the random forest is overfitting the training data. As such, I used the XGboost and fit the whole data onto that.<br>
 
 
 
@@ -183,7 +183,7 @@ The results showed that only 43 features were important and the rest of features
     <td><strong>XGboost</strong></td>
     <td>0.87</td>
     <td>0.51</td>
-  </tr>
+  </tr><br>
  
 </p>
 
