@@ -180,7 +180,7 @@ The results showed that only 43 features were important and the rest of features
     <td>0.51</td>
   </tr>
   <tr>
-    <td><strong>XGboost</strong></td>
+    <td>Random Forest</td>
     <td>0.87</td>
     <td>0.51</td>
   </tr> </table>
