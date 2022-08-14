@@ -129,19 +129,18 @@ As shown, the results of visualization is only good for checking the intuition a
   
   <tr>
     <td>Fifa ranking test</td>
-
     <td>Numerical</td>
     <td>One-way Anova F-test</td>
-   <td>Depedent variable and the feature are independent</td>
-   <td>1.88e-12</td>
+    <td>Depedent variable and the feature are independent</td>
+    <td>1.88e-12</td>
   </tr>
   
   <tr>
     <td>Number of previous champioships</td>
     <td>Numerical</td>
     <td>One-way Anova F-test</td>
-   <td>Depedent variable and the feature are independent</td>
-   <td>1.82 e-6</td>
+    <td>Depedent variable and the feature are independent</td>
+    <td>1.82 e-6</td>
   </tr>
 </table>
 More "Try it Yourself" examples below.
