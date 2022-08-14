@@ -53,9 +53,6 @@ The code for the above results can be found [here](https://github.com/kaveh7293/
 
 As shown, only the countries from Europe and South America have more wins than draws and loses
 
-A better plot can be the average points per game for the contries from different countries:<br>
-
-<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances_Points.png'><br>
 
 In the following the plot of average points per game for countries from different continents are shown for different world cup years:<br>
 
@@ -87,6 +84,9 @@ The code for generation of the above results can be found [here](https://github.
 As shown, different teams have different number of wins, draws and loses. As such the name of the countries could be important feature which should be accounted for during model development.  </p>
  <p> The effect of fifa ranking and whether the countries are host or not are investigated in the folowing plots:<br>
   <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Picture4.png'><br>
+  The effect of different teams from different continents on the corresponding results can also be investigated using a plot showing the average points per game for the contries from different countries:<br>
+
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances_Points.png'><br>
 
 
 <h2> Feature Selection</h2>
