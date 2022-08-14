@@ -14,7 +14,49 @@
    
 <p>The groups with the lowest average ranking are the hardest (death groups) and the groups with the maximum ranking are the easiest. We also determined this using python code.</p> 
 <p> The following results were obtained by our python code and can be seen from barplots as well. The hardest group in the previous world-cups were: 
-  <ul>         
+
+ <table>
+  <tr>
+    <th>World Cup</th>
+    <th>Group</th>
+    <th>Teams</th>
+  
+
+  </tr>
+  <tr>
+    <td>1998</td>
+    <td>H</td>
+    <td> Japan, Argentina, Croatia, and Jamaica</td>
+  </tr>
+  <tr>
+    <td>2002</td>
+    <td>F</td>
+    <td>Argentina, England, Nigeria, and Sweden</td>
+  </tr> 
+  <tr>
+    <td>2006</td>
+    <td>E</td>
+    <td>Italy, Ghana, Czechia, and USA</td>
+  </tr>
+    <tr>
+    <td>2010</td>
+    <td>D</td>
+    <td>Germany, Australia, Ghana, and Serbia</td>
+  </tr>
+  
+    <tr>
+    <td>2014</td>
+    <td>D</td>
+    <td>Uruguay, Costa_Rica, Italy, and England</td>
+  </tr>
+<tr>
+ <td>2018</td>
+ <td>E</td>
+  <td>Brazil, Costa_Rica, Serbia, and Switzerland</td>
+  </tr>
+</table> 
+
+<ul>         
          <li>The death group in 1998 is: H (the group teams were Japan, Argentina, Croatia, and Jamaica)</li>
          <li>The death group in 2002 is: F (the group teams were Argentina, England, Nigeria, and Sweden)</li>
          <li> The death group in 2006 is: E (the group teams were Italy, Ghana, Czechia, and USA)</li>
