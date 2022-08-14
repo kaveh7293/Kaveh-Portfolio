@@ -136,7 +136,7 @@ The code for generation of the above results can be found [here](https://github.
     <li>Wrapper-based feature selection</li></ol>
 <h3> Feature selection based on visualization</h3>
  <p> This type of feature selection is not very statistically sound, but it is straightforward and can be used to obtain general information about the relationship between different features and the corresponding results. In the following, the effect of fifa ranking and whether the countries are host or not are investigated in the folowing plots:<br>
-  <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Picture4.png'><br>
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image3079.png'  height='300'><br>
   The effect of different teams from different continents on the corresponding results can also be investigated using a plot showing the average points per game for the contries from different countries:<br>
 
 <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/image3079.png' width='420' height='300'><br>
