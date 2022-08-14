@@ -5,7 +5,9 @@
 <li> The features which are used for this classfiction problem are the name of the countries, the teams continent, fifa ranking, the number of previous world champtionships, and wehther they were the host.</li>
 <li>I first did some explanatory data analysis to answer some of the questions I had in my mind about the previous world cup. Then, I did some feature selection analysis to determine important features need to be selected for model training. Finally, I trained a random forest model to predict the results of the next world-cup in 2022.</li>
  </ul>
-<h2> Determination of the Hardest Groups and the Easiest Groups in the Previous World-cups</h2> 
+
+<h2> Explanatory Data Analysis</h2>
+<h3> Determination of the Hardest Groups and the Easiest Groups in the Previous World-cups</h3> 
 <p>What were the hardest groups in the group stage in each of the previous world cups. I chose the hardest group based on the smallest average of the fifa world    ranking in each group. We plot a barplot to return the average of the teams rankings in each of the world cups:<br>
   
   <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/1998.png'><br>
@@ -44,15 +46,12 @@ The code for the above results can be found [here](https://github.com/kaveh7293/
 <li> To have groups with similar level of difficulties, fifa divided teams into four different categorizes. In each group, there are only one team from each category. The uniform height of the bar plots at each year can show the same level of difficulties for that world cup.</li>
    </p>
 
-<h2> Performance of Different Continents in the Previous World-cups. </h2>
-<p>In the following we show the number of wins, loses and draws for the teams from different continents. Teams from Europ and South America have the highest ratio of win/lose and win/draw compared to countries from different continents. This justify the lower number of teams from Asia and Africa in the world cup. In the following we investigate whether there is an improve in the performance of the countries from Asia, Africa and Concacaf regions. FIFA usually plans to improce the performance of the countries from these regions to make the World Cup more exciting.</p>
-* This is the countplot for the performance of different continents in the world cups:
-![](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances.png)
-
-As shown, only the countries from Europe and South America have more wins than draws and loses
+<h3> Performance of Different Continents in the Previous World-cups. </h3>
+<p>In the following we show the number of wins, loses and draws for the teams from different continents. Teams from Europe and South America have the highest ratio of win/lose and win/draw compared to countries from different continents. This justify the lower number of teams from Asia and Africa in the world cup. In the following we investigate whether there is an improve in the performance of the countries from Asia, Africa and Concacaf regions. FIFA usually plans to improce the performance of the countries from these regions to make the World Cup more exciting.This is the countplot for the performance of different continents in the world cups:</p>
+<img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Continents_Performances.png'><br>
 
 
-In the following the plot of average points per game for countries from different continents are shown for different world cup years:<br>
+<p>As shown, only the countries from Europe and South America have more wins than draws and loses. In the following the plot of average points per game for countries from different continents are shown for different world cup years:</p><br>
 
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Africa.png'><br>
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Concacaf.png'><br>
@@ -60,7 +59,7 @@ In the following the plot of average points per game for countries from differen
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Oceania.png'><br>
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/South_America.png'><br>
 
-<p>The plot shows that African countries performances get worse after world cup 1998. Asian countries performance is better in 2002, 2010 and 2018 world cups compared to their performance in 2006 and 20014. THe best performace of Asian countries is in world cup 2002 when Japan and Korea were the hosts. South American counteries performance was very bad in 2002 with an average of about 0.6 points per game (Uruguay and Argentina were eliminated in the group stage). 
+<p>The plot shows that African countries performances get worse after world cup 1998. Asian countries performance is better in 2002, 2010 and 2018 world cups compared to their performance in 2006 and 20014. The best performace of Asian countries is in world cup 2002 when Japan and Korea were the hosts. South American counteries performance was very bad in 2002 with an average of about 0.6 points per game (Uruguay and Argentina were eliminated in the group stage). 
 The code for generation of the above results can be found [here](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Performance_of_countries.py)</p>
 
 <h2> Feature Selection</h2>
