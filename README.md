@@ -91,7 +91,7 @@ As shown, the results of visualization is only good for checking the intuition a
 <h3> Filter-based feature selection</h3>
  <h4>Feature selection based on hypothesis testing</h4>
  
- Because we have different types of features, different statistical hypothesis tests should be make to find out whether the corresponding results are dependant on specific features. The following table shows the results of the hypothesis test for different features that have been used.
+ Because we have different types of features, different statistical hypothesis tests should be make to find out whether the corresponding results are dependant on specific features. The chi-squared test has been used to evaluate whether cateogrical features have important effects on the corresponding team results. Note that to do chi-squared hypothesis tests, we first created a contingency table (using pandas.crosstab), and then using the contingency table we could perform the hypothesis test (using stats.chi2contingency). Further, we did an one-way Anova F-test to determine whether numerical features affect the results that the teams had. The numerical features are the fifa ranking and the number of previous championships. I used scipy.stats.f_oneway in order to implement this hypothesis test. The following table shows the results of the hypothesis test for different features that have been used. 
  
  <table>
   <tr>
@@ -142,8 +142,8 @@ As shown, the results of visualization is only good for checking the intuition a
     <td>Depedent variable and the feature are independent</td>
     <td>1.82 e-6</td>
   </tr>
-</table>
-More "Try it Yourself" examples below.
+</table><br>
+ <p> As shown for all of the hypothsis tests, the p-values are small, so we can reject the null hypthesis in favour of alternative hypothesis (i.e., all the features are important).
 
 
  <h2> Feature Selection</h2>
@@ -151,10 +151,7 @@ More "Try it Yourself" examples below.
  Hypothesis testing: Since both of the Country and Result columns are categorical, we did a chi-squared hypothesis test. The resulting p value obtained 1.99 e-9. As a reult we reject the null hypothesis in favour of alternative hypothesis (i.e., the country and results are dependent)
 
 * Because the continents are also a cateogrical type of data, we used a chi-squared test as well to assess whether there is a relationship between continents and the corresponding results. The p-value for the corresponding hypothesis test (null hypothesis: continents and their results are independent variables) obtained 3.3 e-9, which rejects the null hypothesis. 
-* Finally, the chi-squared test has been used to evaluate whether being a host affect the results a team get, the corresponding p-value was obtained 0.02 showing the important effect of being a host. 
-
-  *Note that in the above hypothesis testings, we first created a contingency table (using pandas.crosstab), and then using the contingency table we could perform the hypothesis test (using stats.chi2contingency). 
- Finally, we did a one-way Anova F-test to determine whether numerical features affect the results that the teams had. The numerical features are the fifa ranking and the number of previous championships. I used scipy.stats.f_oneway in order to implement this hypothesis test. The corresponding p values for these tests obtained to be 1.88 e-12 (effect of fifa ranking) and 1.82 e-6 (effect of previous world championships), so we can assure that both of these features have effect on the performance of the teams on each game. The following plots also confirm the results of those hypothesis tests:<br>
+*  The corresponding p values for these tests obtained to be 1.88 e-12 (effect of fifa ranking) and 1.82 e-6 (effect of previous world championships), so we can assure that both of these features have effect on the performance of the teams on each game. The following plots also confirm the results of those hypothesis tests:<br>
  
 
 
