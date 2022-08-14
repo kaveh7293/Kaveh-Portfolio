@@ -68,15 +68,25 @@ In the following the plot of average points per game for countries from differen
 <p>The plot shows that African countries performances get worse after world cup 1998. Asian countries performance is better in 2002, 2010 and 2018 world cups compared to their performance in 2006 and 20014. THe best performace of Asian countries is in world cup 2002 when Japan and Korea were the hosts. South American counteries performance was very bad in 2002 with an average of about 0.6 points per game (Uruguay and Argentina were eliminated in the group stage). 
 The code for generation of the above results can be found [here](https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Performance_of_countries.py)</p>
 
-<h2> Relationship between the features and the results</h2>
-<p>The effect of features can be seen using count plot and heat map plot generated from contingency table:<br>
+<h2> Feature Selection</h2>
+ <p> I use several feature selection method which can be used in general to determine the important features which should be accounted for during classfication:<br>
+  <ol>
+   <li> Feature selection based on visualization</li>
+   <li> Filter-based feature selection
+   <ul>
+     <li> Feature selection based on simple correlation matrix </li>
+    <li> Feature selection based on hypothesis testing</li>
+   </ul>
+    <li>Wrapper-based feature selection</li></ol>
+      
+<p>The effect of features can be seen using count plot and heat map plot:<br>
  <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_Wins.png'><br>
  <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_losts.png'><br>
 <img src='https://github.com/kaveh7293/Kaveh-Portfolio/blob/main/Country_Effect_draws.png'><br>
 
 As shown, different teams have different number of wins, draws and loses. </p>
 
-<h2> Feature Selection</p>
+<h2> Feature Selection</h2>
 
  Hypothesis testing: Since both of the Country and Result columns are categorical, we did a chi-squared hypothesis test. The resulting p value obtained 1.99 e-9. As a reult we reject the null hypothesis in favour of alternative hypothesis (i.e., the country and results are dependent)
 
