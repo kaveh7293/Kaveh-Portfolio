@@ -150,9 +150,10 @@ As shown, the results of visualization is only good for checking the intuition a
 <img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/download.png'><br>
 The results showed that only 43 features were important and the rest of features have small correlation (i.e., below 0.1) with the dependent variables.</p>
  <h5> disadvantage</h5>
+ <p> Disadvantage of all the wrapper-based methods is that they do not account for correlation between features. As a result, two correlated features might be selected because their influence on the outputs are large.
  <p>
 <h4> Feature selection using a wrapper-based method</h4>
- <p> This method uses a classfication model to evaluate whether containing a feature during classification have important effects on the quality of the prediction.  By doing so, the modeler can decide to chosse the optimal number of parameters. I used from feature-selection module in sklearn </li>
+ <p> This method uses a classfication model to evaluate whether containing a feature during classification have important effects on the quality of the prediction.  By doing so, the modeler can decide to chosse the optimal number of parameters. I used from feature-selection module in sklearn. I chose the first 50 features that have been ranked first by the model. The advantage of this method is that it accounts for correlation between the features </li>
 
  <h2> Feature Selection</h2>
 
