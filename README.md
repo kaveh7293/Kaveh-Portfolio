@@ -147,7 +147,8 @@ As shown, the results of visualization is only good for checking the intuition a
 <h4> Feature-based selection based on correlation coefficients</h4>
 <p> I also did a feature selection based on the correlation coefficient between the dependenet variable and the features that have been transformed (for those features that are categorical) and scaled. The following figures show that there are 211 features where a majority of them have very small correlation witht the dependent variable. The large number of features can be attributed to the onehot enconding which result a high number of columns since there are so many countries. 
 
-<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/download.png'>
+<img src='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/download.png'><br>
+The results showed that only 43 features were important and the rest of features have small correlation (i.e., below 0.1) with the dependent variables.
 
  <h2> Feature Selection</h2>
 
