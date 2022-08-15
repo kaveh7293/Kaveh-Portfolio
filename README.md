@@ -304,7 +304,7 @@ The results showed that only 19 features were important and the rest of features
 
  
 
-<p> The code for all of above analysis can be found <a href='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/World_Cup.ipynb'> here.</a>
+<p> The code for the modeling part can be found <a href='https://github.com/kaveh7293/World-Cup-Results-Prediction--Accuracy-of-Common-Sense-/blob/main/Untitled51.ipynb'> here.</a>
  
  
 
