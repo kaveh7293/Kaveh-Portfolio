@@ -223,13 +223,13 @@ The results showed that only 19 features were important and the rest of features
   </tr>
   <tr>
     <td><strong>XGboost</strong></td>
-    <td>0.49</td>
-    <td>0.51</td>
+    <td>0.46</td>
+    <td>0.55</td>
   </tr>
   <tr>
     <td>Random Forest</td>
-    <td>0.87</td>
-    <td>0.51</td>
+    <td>0.9</td>
+    <td>0.50</td>
   </tr> </table>
 <br>
  
@@ -251,53 +251,53 @@ The results showed that only 19 features were important and the rest of features
   <tr>
     <td>Qatar</td>
     <td>Equador</td>
-    <td>33</td>
-    <td>25</td>
-    <td>42</td>
+    <td>20</td>
+    <td>78</td>
+    <td>2</td>
 
  </tr>
  <tr>
     <td>Qatar</td>
     <td>Senegal</td>
-    <td>46</td>
-    <td>36</td>
     <td>18</td>
+    <td>81</td>
+    <td>1</td>
 
  </tr>
  
  <tr>
     <td>Qatar</td>
     <td>Netherlands</td>
-    <td>46</td>
-    <td>36</td>
-    <td>17</td>
+    <td>18</td>
+    <td>81</td>
+    <td>1</td>
 
  </tr>
  
  <tr>
     <td>Equador</td>
     <td>Senegal</td>
-    <td>25</td>
-    <td>20</td>
-    <td>55</td>
+    <td>48</td>
+    <td>49</td>
+    <td>3</td>
 
  </tr>
  
  <tr>
     <td>Equador</td>
     <td>Netherlands</td>
-    <td>25</td>
-    <td>20</td>
-    <td>55</td>
+    <td>48</td>
+    <td>49</td>
+    <td>3</td>
 
  </tr>
  
  <tr>
     <td>Senegal</td>
     <td>Netherlands</td>
-    <td>46</td>
-    <td>36</td>
-    <td>18</td>
+    <td>51</td>
+    <td>44</td>
+    <td>4</td>
 
  </tr>
   </tr> </table>
